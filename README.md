@@ -1,5 +1,5 @@
 # InstantPage
-
+アップロードされたjsonファイルの内容を箇条書きでhtml出力する
 # JSON形式
 {
    "data":[
