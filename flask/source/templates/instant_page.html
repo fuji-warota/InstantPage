@@ -1,0 +1,11 @@
+<html>
+  <body>
+  <h1>インスタントページにようこそ</h1>
+  <ul>
+    {% for item, url in html_data %}
+    <li>{{item}}: <a href="{{url}}" target="_blank">{{url}}</a></li>
+    {% endfor %}
+    <li>[おまけ]google: <a href="https://www.yahoo.co.jp/" target="_brank">https://www.google.com/</a></li>
+  </ul>
+  </body>
+</html>
